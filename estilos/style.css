@@ -30,6 +30,8 @@ main{
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
     overflow: hidden;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 #imagem{
