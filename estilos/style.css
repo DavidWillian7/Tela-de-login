@@ -23,7 +23,6 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 260px;
     height: 480px;
@@ -32,6 +31,7 @@ main{
     overflow: hidden;
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 #imagem{
@@ -47,20 +47,38 @@ main{
     padding: 10px;
 }
 
-h1{
+#formulario > h1{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+#formulario > p{
+    margin: 10px 0;
 }
 
 .campo{
     background-color: #BF5B45;
     height: 40px;
-    border-radius: 5px;
+    border: 2px solid #BF5B45;
+    border-radius: 8px;
     margin: 5px 0;
 }
 
-.campo > label{
-    display: none;
+.dados{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input{
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border-radius: 8px;
+    border: 0;
+    padding: 5px;
+    transform: translateY(-12px);
 }
 
 input[type=submit]{
@@ -71,7 +89,7 @@ input[type=submit]{
     background-color: #5FD9D9;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -88,7 +106,7 @@ input[type=submit]:hover{
     padding-top: 4px;
     margin-top: 5px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid #389e9e;
     color: #389e9e;
     text-decoration: none;
