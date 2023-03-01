@@ -25,7 +25,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 250px;
+    width: 260px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
@@ -45,4 +45,9 @@ main{
 #formulario{
     display: block;
     padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
 }
