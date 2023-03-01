@@ -5,7 +5,7 @@ Este é um projeto simples que consiste em uma tela de login responsiva que util
 A tela de login possui os seguintes campos:
 * E-mail
 * Senha
-Além disso, a tela também possui um botão de "Entrar" e um link para recuperar a senha. A tela foi desenvolvida para se adaptar a diferentes tamanhos de tela.
+<p>Além disso, a tela também possui um botão de "Entrar" e um link para recuperar a senha. A tela foi desenvolvida para se adaptar a diferentes tamanhos de tela.</p>
 
 ## Screenshots
 Abaixo estão alguns screenshots da tela de login em diferentes tamanhos de tela:
